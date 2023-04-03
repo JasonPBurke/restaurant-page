@@ -1,4 +1,4 @@
-import logo from './fishyJoeLogo.png';
+import logo from './images/fishyJoeLogo.png';
 
 export default function header() {
   const header = document.createElement('header');

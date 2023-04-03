@@ -12,7 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url(./fishy-joes-bg.png) no-repeat center fixed;
+    url(./images/fishy-joes-bg.png) no-repeat center fixed;
   /* background-position: center; */
   background-size: cover;
   color: var(--main-txt-color);

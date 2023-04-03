@@ -1,6 +1,6 @@
-import joeImg from './fishyJoe.png';
-import smartAssImg from './smartAssTeen.png';
-import spottyTeenImg from './spottyTeenRobot.png';
+import joeImg from './images/fishyJoe.png';
+import smartAssImg from './images/smartAssTeen.png';
+import spottyTeenImg from './images/spottyTeenRobot.png';
 
 function employeeFactory(name, description, img) {
   const el = document.createElement('div');

@@ -1,11 +1,11 @@
-import popplerImg from './popplersRealistic.png';
-import frootImg from './frootCup.png';
-import walrusImg from './walrusJuice.png';
-import whiskeyImg from './whiskey.png';
-import bungalowImg from './btots.png';
-import stroganoffImg from './stroganoff.png';
-import fSpagImg from './spag.png';
-import saladImg from './salad.png';
+import popplerImg from './images/popplersRealistic.png';
+import frootImg from './images/frootCup.png';
+import walrusImg from './images/walrusJuice.png';
+import whiskeyImg from './images/whiskey.png';
+import bungalowImg from './images/btots.png';
+import stroganoffImg from './images/stroganoff.png';
+import fSpagImg from './images/spag.png';
+import saladImg from './images/salad.png';
 
 function menuItemFactory(name, description, img) {
   const c = document.createElement('div');

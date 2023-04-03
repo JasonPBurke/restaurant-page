@@ -1,0 +1,96 @@
+:root {
+  --border-color: rgba(164, 197, 186, 0.46);
+  --main-txt-color: rgb(164, 197, 186);
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url(./fishy-joes-bg.png) no-repeat center fixed;
+  /* background-position: center; */
+  background-size: cover;
+  color: var(--main-txt-color);
+}
+
+#content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+  padding: 0 10rem 0 9rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.logoAndName > img {
+  max-height: 6rem;
+}
+
+.navigation > ul {
+  display: flex;
+  gap: 5rem;
+  list-style: none;
+  font-size: x-large;
+}
+
+.navigation > ul > li {
+  cursor: pointer;
+}
+
+main {
+  padding: 5rem;
+  background-color: rgba(240, 248, 255, 0.686);
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-main {
+  background: none;
+}
+
+.home-container {
+  background-color: rgba(0, 0, 0, 0.477);
+  border-radius: 1rem;
+  min-width: 25%;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+.menu-item {
+  background-color: white;
+  color: black;
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  margin: 1rem;
+  text-transform: capitalize;
+}
+
+.menu-item > img {
+  max-height: 150px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10rem;
+  border-top: 1px solid var(--border-color);
+  height: 6rem;
+}

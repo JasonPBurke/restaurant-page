@@ -1,4 +1,4 @@
-import logo from './fishyJoe.png';
+import logo from './fishyJoeLogo.png';
 
 export default function header() {
   const header = document.createElement('header');
@@ -7,6 +7,7 @@ export default function header() {
   nav.setAttribute('class', 'navigation');
   const navUl = document.createElement('ul');
   const homeLi = document.createElement('li');
+  homeLi.setAttribute('id', 'home');
   homeLi.innerHTML = 'Home';
   const menuLi = document.createElement('li');
   menuLi.innerHTML = 'Menu';

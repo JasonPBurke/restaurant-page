@@ -38,15 +38,28 @@ header {
   max-height: 6rem;
 }
 
+.navigation {
+  height: inherit;
+}
+
 .navigation > ul {
   display: flex;
+  align-items: center;
   gap: 5rem;
   list-style: none;
+  text-transform: uppercase;
   font-size: x-large;
+  height: inherit;
+  margin: 0;
 }
 
 .navigation > ul > li {
   cursor: pointer;
+}
+
+.navigation > ul > li:hover {
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 4px;
 }
 
 main {
@@ -72,6 +85,7 @@ main {
   place-items: center;
 }
 
+.employee-info-card,
 .menu-item {
   background-color: white;
   color: black;
@@ -80,10 +94,36 @@ main {
   text-align: center;
   margin: 1rem;
   text-transform: capitalize;
+  width: 325px;
+}
+
+.menu-item {
+  height: 255px;
 }
 
 .menu-item > img {
   max-height: 150px;
+}
+
+.employee-info-card {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 0;
+  overflow: hidden;
+}
+
+.employee-info-card > img {
+  /* display: block; */
+  /* width: 100%;
+  height: auto;
+  object-fit: contain; */
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
 }
 
 footer {

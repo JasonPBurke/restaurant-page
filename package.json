@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/JasonPBurke/restaurant-page.git"
   },
-  "author": "",
+  "author": "jasonburke",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JasonPBurke/restaurant-page/issues"
